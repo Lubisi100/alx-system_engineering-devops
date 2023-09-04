@@ -1,5 +1,2 @@
 #!/bin/bash
-touch -- "$(cat <<'END_NAME'
-\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
-END_NAME
-)"
+var=$'\*\\\\\'"Best School"\\\'\\\\*$\\?\\*\\*\\*\\*\\*:)';echo "$var"\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
